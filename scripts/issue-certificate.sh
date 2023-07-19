@@ -13,7 +13,7 @@ EOF
 }
 
 issue_cert_standalone() {
-  docker run -it --rm --name certbot -p 80:8001 \
+  docker run -it --rm --name certbot -p 8001:80 \
     -v "${1}/etc/letsencrypt:/etc/letsencrypt" \
     -v "${1}/lib/letsencrypt:/var/lib/letsencrypt" \
     certbot/certbot certonly --standalone -d "${2}"
