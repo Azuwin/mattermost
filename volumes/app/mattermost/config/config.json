@@ -191,7 +191,7 @@
         "EnableFileAttachments": true,
         "EnableMobileUpload": true,
         "EnableMobileDownload": true,
-        "MaxFileSize": 104857600,
+        "MaxFileSize": 10737418240,
         "MaxImageResolution": 33177600,
         "MaxImageDecoderConcurrency": -1,
         "DriverName": "local",
